@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Poppins:wght@300&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+
+body{
+	background-color: #E7F9FC;
+}
+.header{
+	text-align: center;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+.box1{
+	
+	max-width: 300px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	
+	
+}
+.image{
+	position: relative;
+	background-color: #fff;
+	width: 150px;
+	height: 150px;
+	border-radius:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.number{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 45px;
+	height: 45px;
+	color: white;
+	background-color: #13C5DD;
+	border-radius: 100%;
+	z-index: 5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.number:hover{
+	background-color: #0E1D40;
+	color: white;
+
+}
+.image img:hover{
+	 transform: rotateY(180deg);
+	 transition: 1s;
+	 transform: 1s;
+}
+
+}
+h3{
+	font-family: 'Jost', sans-serif;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+}
+h1{
+	font-size: 50px;
+	font-family: 'Jost', sans-serif;
+}
+ .p{
+	position: relative;
+	color: #13C5E7;
+	width: 15%;
+	margin: auto;
+	
+}
+.header p::before{
+	content: "";
+	position: absolute;
+	width: 60px;
+	height: 2px;
+	background-color: #13C5E7;
+	left: 0;
+	top: 50%;
+	
+
+}
+
+.header p::after{
+	content: "";
+	position: absolute;
+	width: 60px;
+	height: 2px;
+	background-color: #13C5E7;
+	right: 0;
+	top: 50%;
+}
